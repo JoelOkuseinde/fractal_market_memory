@@ -40,6 +40,7 @@ from datetime import datetime
 from logging.handlers import RotatingFileHandler
 from orch_example.orchestrator import ASSET, API_TOKEN
 from orch_example.explanation import adaptive_fractal_explanation
+
 class Config:
     LOG_DIR = "logs"
     SCR_DIR = "screenshots"
@@ -73,7 +74,6 @@ class Logger:
         logger.addHandler(fh)
 
         return logger
-
 
 def log_method(fn):
     """

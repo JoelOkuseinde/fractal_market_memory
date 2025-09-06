@@ -1,0 +1,3 @@
+Streamlines the fractal and adaptive_fractal into one file, cleans up imports, retains and cleans
+relevant functions, ensures overall readability of code.
+Add a Secret file that stores the API_KEY
