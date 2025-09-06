@@ -1,0 +1,3 @@
+These files are chopped up from the BASE files, they keep the functions/methods I will be taking forward
+NOTE:
+- fractal and adap.fractal dont use the same logger this must be sorted in the fusion process
