@@ -1,0 +1,2 @@
+Merges the Metric and Systemic Analyzers of fractal and adaptive fractal into their own respective
+classes
