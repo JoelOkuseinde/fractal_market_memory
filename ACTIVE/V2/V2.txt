@@ -1,9 +1,14 @@
-Merges the Metric and Systemic Analyzers of fractal and adaptive fractal into their own respective
-classes
+Merges the Metric and Systemic Analyzers of fractal and adaptive fractal and improves their functionality
 
+Old Classes:
+    MetricAnalyzer,
+    MetricEvaluator,
+    SystemicAnalyzer,
+    SystemicAnalyzerAdaptive,
+    TailReversionAnalyzer
 
-0.002099071041871279
-
-0.0002739528508831794
-0.0001956122413481832
-0.0002739528508831794
+New Classes:
+    TailRiskSnapshot (born from MetricEvaluator)
+    TailReversionAnalyzer (improved from V1)
+    AdaptiveBandDiagnostics (born from MetricAnalyzer)
+    SystemicAnalyzer (implemented SystemicAnalyzerAdaptive into SystemicAnalyzer then improved logic)
